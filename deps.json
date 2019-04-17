@@ -1,11 +1,11 @@
 {
     "name": "starkit/rhal",
     "deps": [
-        "starkitdeps/serial", 
-        "starkitdeps/json", 
-        "starkitdeps/tclap", 
+        "starkit/serial", 
+        "starkit/json", 
+        "starkit/tclap", 
         "starkit/rhio",
-        "starkitdeps/eigen"
+        "starkit/eigen"
     ],
     "includes": "Lib",
     "binaries": "build/bin",
