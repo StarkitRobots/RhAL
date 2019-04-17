@@ -1,9 +1,9 @@
 # Getting started
 
-First of all, go to https://github.com/Rhoban/deps and follow the (short) instructions.
+First of all, go to https://github.com/Starkit/deps and follow the (short) instructions.
 
 Then, clone this repository :
-    `git clone https://github.com/Rhoban/RhAL.git`
+    `git clone https://github.com/Starkit/RhAL.git`
 
 And run :
     `deps install`

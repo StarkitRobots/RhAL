@@ -1,6 +1,6 @@
 ###
-### Rhoban Hardware Abstraction Layer library
-### Rhoban 2015
+### Starkit Hardware Abstraction Layer library
+### Starkit 2015
 ###
 
 cmake_minimum_required(VERSION 2.8)
@@ -12,13 +12,13 @@ find_package(catkin REQUIRED COMPONENTS
   serial
   tclap
   eigen
-  rhoban_utils
+  starkit_utils
   )
 
 catkin_package(
   INCLUDE_DIRS Lib
   LIBRARIES RhAL
-  CATKIN_DEPENDS RhIOServer jsoncpp serial tclap eigen rhoban_utils
+  CATKIN_DEPENDS RhIOServer jsoncpp serial tclap eigen starkit_utils
 )
 
 set(LIB_SOURCES_DIRECTORY

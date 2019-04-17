@@ -1,7 +1,7 @@
 #include <functional>
 #include <iomanip>
 #include <sstream>
-#include <rhoban_utils/stats/stats.h>
+#include <starkit_utils/stats/stats.h>
 #include "Bindings/RhIOBinding.hpp"
 #include "Manager/BaseManager.hpp"
 #include "Manager/Device.hpp"
@@ -644,7 +644,7 @@ std::string RhIOBinding::cmdTare(std::vector<std::string> argv)
       for (int g = 0; g < ps->gauges(); g++)
       {
         double avg;
-        double dev = rhoban_utils::standardDeviation(zeros[ps][g], &avg);
+        double dev = starkit_utils::standardDeviation(zeros[ps][g], &avg);
         if (dev > ps->getMaxStdDev())
         {
           std::stringstream tmp;
@@ -711,11 +711,11 @@ std::string RhIOBinding::cmdGyroTare(std::vector<std::string> argv)
     for (auto& gy85 : sensors)
     {
       double xAvg, xDev;
-      xDev = rhoban_utils::standardDeviation(zeros[gy85]["x"], &xAvg);
+      xDev = starkit_utils::standardDeviation(zeros[gy85]["x"], &xAvg);
       double yAvg, yDev;
-      yDev = rhoban_utils::standardDeviation(zeros[gy85]["y"], &yAvg);
+      yDev = starkit_utils::standardDeviation(zeros[gy85]["y"], &yAvg);
       double zAvg, zDev;
-      zDev = rhoban_utils::standardDeviation(zeros[gy85]["z"], &zAvg);
+      zDev = starkit_utils::standardDeviation(zeros[gy85]["z"], &zAvg);
 
       if (xDev > gy85->getMaxStdDev())
       {

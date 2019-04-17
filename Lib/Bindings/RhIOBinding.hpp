@@ -14,7 +14,7 @@ class Device;
 /**
  * RhIOBinding
  *
- * Binding with Rhoban/RhIO user
+ * Binding with Starkit/RhIO user
  * interface system
  */
 class RhIOBinding

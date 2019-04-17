@@ -1,11 +1,11 @@
 {
-    "name": "rhoban/rhal",
+    "name": "starkit/rhal",
     "deps": [
-        "rhobandeps/serial", 
-        "rhobandeps/json", 
-        "rhobandeps/tclap", 
-        "rhoban/rhio",
-        "rhobandeps/eigen"
+        "starkitdeps/serial", 
+        "starkitdeps/json", 
+        "starkitdeps/tclap", 
+        "starkit/rhio",
+        "starkitdeps/eigen"
     ],
     "includes": "Lib",
     "binaries": "build/bin",
