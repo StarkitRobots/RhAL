@@ -21,13 +21,13 @@
 
   <buildtool_depend>catkin</buildtool_depend>
 
-  <build_depend>RhIOServer</build_depend> <!-- starkit/rhio -->
-  <build_depend>jsoncpp</build_depend> <!-- starkit/jsoncpp -->
-  <build_depend>serial</build_depend> <!-- starkit/serial -->
-  <build_depend>tclap</build_depend> <!-- starkit/tclap -->
-  <build_depend>eigen</build_depend> <!-- starkit/eigen -->
-  <build_depend>eigen</build_depend> <!-- starkit/utils -->
-  <build_depend>starkit_utils</build_depend> <!-- starkit/utils -->
+  <build_depend>RhIOServer</build_depend> <!-- StarkitRobots/rhio -->
+  <build_depend>jsoncpp</build_depend> <!-- StarkitRobots/jsoncpp -->
+  <build_depend>serial</build_depend> <!-- StarkitRobots/serial -->
+  <build_depend>tclap</build_depend> <!-- StarkitRobots/tclap -->
+  <build_depend>eigen</build_depend> <!-- StarkitRobots/eigen -->
+  <build_depend>eigen</build_depend> <!-- StarkitRobots/utils -->
+  <build_depend>starkit_utils</build_depend> <!-- StarkitRobots/utils -->
   
   <run_depend>RhIOServer</run_depend>
   <run_depend>jsoncpp</run_depend>
